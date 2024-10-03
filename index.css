@@ -29,7 +29,7 @@ small {
 }
 
 .cup {
-    background-color: white;
+    /* background-color: white; */
     width: 120px;
     height: 260px;
     margin: 20px 0 20px 0;
@@ -37,8 +37,30 @@ small {
     border: 4px solid #144fc6;
     display: flex;
     flex-direction: column;
+    /* align-items: center;
+    justify-content: center; */
+    /* text-align: center; */
+    overflow: hidden;
+}
+
+.empty {
+    height: 260px;
+    background-color: white;
+    display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
+}
+
+.water {
+    background-color: #6ab3f8;
+    height: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #144fc6;
+    font-size: 30px;
 }
 
 .groupCupSmall {
@@ -61,4 +83,12 @@ small {
     border-radius: 0 0 14px 14px;
     cursor: pointer;
     font-size: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.full {
+    background-color: #6ab3f8;
+    color: white;
 }
