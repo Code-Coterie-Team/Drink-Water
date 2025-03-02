@@ -8,10 +8,6 @@ let full = [];
 cupSmalls.forEach((cupsmall, index) => {
 
     cupsmall.addEventListener('click', (event) => {
-        let clickOnCupSmall = event.target;
-        // console.log(clickOnCupSmall);
-        // clickOnCupSmall.classList.remove('full');
-       // clickOnCupSmall.classList.toggle("full");
         cupSmalls.forEach((item) => {
             item.classList.remove("full");
         });
